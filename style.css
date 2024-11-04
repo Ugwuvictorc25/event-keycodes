@@ -1,0 +1,45 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: azure;
+	overflow: hidden;
+	text-align: center;
+	margin: 0;
+}
+
+.key {
+	display: inline-flex;
+	background-color: beige;
+	align-items: center;
+	justify-content: center;
+	padding: 1.2rem;
+	border: 1px solid gray;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	font-size: 1.2rem;
+	flex-direction: column;
+	font-weight: bold;
+	margin: 0.8rem;
+	min-width: 150px;
+	position: relative;
+}
+
+.key small {
+	position: absolute;
+	top: -1.4rem;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #555;
+}
+
+.key.instruction {
+	display: block;
+}
